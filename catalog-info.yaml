@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "firstapp"
   annotations:
-    backstage.io/kubernetes-id: value
+    backstage.io/kubernetes-id: firstapp
 spec:
   type: service
   owner: user:guest
