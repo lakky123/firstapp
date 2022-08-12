@@ -4,7 +4,7 @@ metadata:
   name: "firstapp"
   annotations:
     backstage.io/kubernetes-id: firstapp
-    jenkins.io/github-folder: 'lakky123/firstapp'
+    jenkins.io/github-folder: 'lakky123/helloworld'
 spec:
   type: service
   owner: user:guest
