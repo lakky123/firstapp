@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "firstapp"
+  annotations:
+    backstage.io/kubernetes-id: value
 spec:
   type: service
   owner: user:guest
