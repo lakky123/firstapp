@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: firstapp
+  labels:
+    backstage.io/kubernetes-id: firstapp
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: firstapp
+  template:
+    metadata:
+      labels:
+        app: firstapp
+        backstage.io/kubernetes-id: firstapp
+    spec:
+      containers:
+      - name: firstapp
+        image: docker.io/lakky123/firstapp:latest
